@@ -90,17 +90,28 @@ const handleUserRoute = async (request : Request, method : string) : Promise<Res
 					code: 200,
 					message: '登录成功',
 					result: {
-						userId: getUserInfo.id,
-						username: getUserInfo.username,
-						userAvatar: getUserInfo.avatar,
-						userEmail: getUserInfo.email,
-						userPhone: getUserInfo.phone,
-						userGender: getUserInfo.gender,
-						userBirthDate: getUserInfo.birthDate,
-						userSignature: getUserInfo.signature,
-						userCreatedTime: getUserInfo.createdTime,
-						userUpateTime: getUserInfo.updateDate,
-						userToken: getUserInfo.token
+						// userId: getUserInfo.id,
+						// username: getUserInfo.username,
+						// userAvatar: getUserInfo.avatar,
+						// userEmail: getUserInfo.email,
+						// userPhone: getUserInfo.phone,
+						// userGender: getUserInfo.gender,
+						// userBirthDate: getUserInfo.birthDate,
+						// userSignature: getUserInfo.signature,
+						// userCreatedTime: getUserInfo.createdTime,
+						// userUpateTime: getUserInfo.updateDate,
+						// userToken: getUserInfo.token
+						userId: 123,
+						username: 'sksk',
+						userAvatar: 'sksk',
+						userEmail: 'sksk',
+						userPhone: 'sksk',
+						userGender: 0,
+						userBirthDate: 'sksk',
+						userSignature: 'sksk',
+						userCreatedTime: 'sksk',
+						userUpateTime: 'sksk',
+						userToken: 'sksk'
 					}
 				}
 			} else {
